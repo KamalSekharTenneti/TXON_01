@@ -1,0 +1,99 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  padding: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://th.bing.com/th/id/R.b857b417803d51eca0048c003fbbf0eb?rik=%2fK7zcKzHK%2fdQqA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fEPjdonr.jpg&ehk=isepnYxDEirdf208rFj3Hrs%2fJoi8sYKA15CQiFnJMuw%3d&risl=&pid=ImgRaw&r=01200x600');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.btn-primary {
+  background-color: #0077cc;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #006db3;
+}
+
+/* Features Section */
+.features {
+  padding: 50px;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 
+}
+
+.about {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.thank{
+  font-size: x-large;
+  text-align: center;
+}
